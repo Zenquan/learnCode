@@ -1,0 +1,11 @@
+Spring
+  IOC 控制反转
+  AOP 面向切面
+
+  springmvc.xmlspring配置文件
+
+  web.xml JAVAEE配置文件
+
+  @Configuration
+  @ComponentScan
+  @Component

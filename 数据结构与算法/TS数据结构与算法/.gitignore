@@ -1,0 +1,7 @@
+node_modules/
+build/
+typings/
+dist/
+src/**/*.js
+**.~vsdx
+**.pdf

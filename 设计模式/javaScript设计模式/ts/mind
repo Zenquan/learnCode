@@ -1,0 +1,25 @@
+
+medinceMaker.setMedinceInfo(selectedList);
+medinceMaker.init();
+
+noticePutBottle();
+
+
+let result = http.checkPutState;
+
+if(result) {
+  http.sendNewMission();
+  let next = http.waitingMake();
+  if(next) {
+    medinceMaker.reset();
+    medinceMaker.noticeChangeBottle();
+    medinceMaker.setMedinceInfo();
+  } else {
+    medinceMaker.reset();
+    medinceMaker = null;
+  }
+
+} else { 
+  noticePutBottle();
+}
+
